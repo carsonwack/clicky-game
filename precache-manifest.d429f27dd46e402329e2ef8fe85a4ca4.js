@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/clicky-game/static/media/macron.514f51fc.png"
   },
   {
-    "revision": "0d3a48c345dba4cdd8d4",
-    "url": "/clicky-game/static/css/main.d1fdf677.chunk.css"
+    "revision": "ce72b40c291a64177627",
+    "url": "/clicky-game/static/css/main.7dc2bf64.chunk.css"
   },
   {
     "revision": "7985e359b3121cf81761",
@@ -14,6 +14,10 @@ self.__precacheManifest = [
   {
     "revision": "77ea1602a28029f74f80",
     "url": "/clicky-game/static/js/2.77ea1602.chunk.js"
+  },
+  {
+    "revision": "b29a54ac9140fd5a60c265b1b0617386",
+    "url": "/clicky-game/static/media/newBackground.b29a54ac.png"
   },
   {
     "revision": "962b804d03225e2dda568278e8186efe",
@@ -32,8 +36,8 @@ self.__precacheManifest = [
     "url": "/clicky-game/static/media/jinping.50830478.png"
   },
   {
-    "revision": "0d3a48c345dba4cdd8d4",
-    "url": "/clicky-game/static/js/main.0d3a48c3.chunk.js"
+    "revision": "ce72b40c291a64177627",
+    "url": "/clicky-game/static/js/main.ce72b40c.chunk.js"
   },
   {
     "revision": "16b395a3ff69421ad0637b1b04a776b2",
@@ -64,7 +68,7 @@ self.__precacheManifest = [
     "url": "/clicky-game/static/media/trump.8be4df03.png"
   },
   {
-    "revision": "18ed60193afc0733b6a54f759fffc1af",
+    "revision": "a9e279c40b6595af541d19581f1cc0ca",
     "url": "/clicky-game/index.html"
   }
 ];
