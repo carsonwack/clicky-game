@@ -1,4 +1,4 @@
-# clicky-game
+# React clicky-game
 ### Users try not to click an image twice, made difficult by random board shuffling.
 
 <br/>
