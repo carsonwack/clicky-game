@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import shuffle from "shuffle-array";
 
-let collection = [1,2,3,4,5];
-shuffle(collection);
-console.log(collection);
-
-
 
 
 class Game extends Component {
@@ -16,9 +11,8 @@ class Game extends Component {
     topScore: 0,
     message: "Click an image to Begin!",
     clicked: [],
-    imgList:  ['jinping', 'putin', 'trump', 'merkel', 'bezos', 'francis', 'gates', 'salman', 'modi', 'page', 'powell', 'macron']
+    imgList: ['jinping', 'putin', 'trump', 'merkel', 'bezos', 'francis', 'gates', 'salman', 'modi', 'page', 'powell', 'macron']
   }
-
 
 
   handleClick = (name) => {
@@ -56,23 +50,26 @@ class Game extends Component {
   render() {
     return (
       <div className="wrap">
+        <div className="header">
+          <h3>Click an image to score -- But don't click any more than once!</h3>
+        </div>
         <div>
-          <nav className="navbar">
+          <nav className="navbar" id="navbar">
             <ul>
-              <li className="brand">
+              <li className="brand" id="home">
                 <a href="/">Clicky Game</a>
               </li>
-              <li>
+              <li id="message">
                 {this.state.message}
               </li>
-              <li>
+              <li id="score">
                 Score: {this.state.score} &nbsp; | &nbsp; Top Score: {this.state.topScore}
               </li>
             </ul>
           </nav>
         </div>
         <div className="container">
-          <div col-md-8="true" offset-2="true">
+          <div col-md-6="true" offset-3="true" id="main-column">
             {
               this.state.imgList.map(name =>
                 <img
