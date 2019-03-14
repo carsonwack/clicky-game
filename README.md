@@ -5,7 +5,7 @@
 
 ### Web Use
 
-Simply visit https://carsonwack.github.io/clicky-game/ and start clicking images!
+Simply visit https://carsonwack.github.io/clicky-game and start clicking images!
 
 <br/><br/>
 
